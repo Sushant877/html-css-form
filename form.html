@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forn</title>
+    <style>
+        .container{
+            position: relative;
+            top: 50px;
+            width: 500px;
+            margin: auto;
+            border:1px solid white;
+            border-radius: 10px;
+            padding:30px;
+            box-shadow: 0 0 30px 10px skyblue;
+        }
+        input{
+            padding: 5px 0 5px 20px;
+            border-radius: 10px;
+            width: 300px;
+            height: 35px;
+        }
+        select{
+            padding: 5px;
+            border-radius: 10px;
+            width: 300px;
+            height: 35px;
+        }
+        label{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form method="POST">
+            <table>
+                <tr><th colspan="2"><h2>Html and css form</h2></th></tr>
+                <tr>
+                    <th><p><label for="id_name">Name</label></p></th>
+                    <th><p><input type="text" placeholder="Name" required></p></th>
+                </tr>
+                <tr>
+                    <th><p><label for="id_email">Email</label></p></th>
+                    <th><p><input type="text" placeholder="Email" required></p></th>
+                </tr>
+                <tr>
+                    <th><p><label for="id_password">Password</label></th>
+                    <th><p><input type="text" placeholder="Password" required></p></th>
+                </tr>
+                <tr>
+                    <th><p><label for="id_phone">Phone no</label></p></th>
+                    <th><p><input type="text" placeholder="Phone no" required></p></th>
+                </tr>
+                <tr>
+                    <th><p><label for="id_address">Address</label></p></th>
+                    <th><p><input type="text" placeholder="Address" required></p></th>
+                </tr>
+                <tr>
+                    <th><p><label for="id_education">Education</label></p></th>
+                    <th><p><select name="Education" id="">
+                        <option value="+2">12</option>
+                        <option value="bachelor">bachelor</option>
+                        <option value="Masters">Masters</option>
+                        <option value="phd">phd</option>
+                    </select></p></th>
+                </tr>
+                <tr>
+                    <th><p></p></th>
+                    <th><p><input type="submit" value="submit"></p></th>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
